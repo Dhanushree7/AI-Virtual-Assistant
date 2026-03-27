@@ -1,0 +1,22 @@
+@"
+# Java
+target/
+*.class
+*.log
+*.jar
+.mvn/
+.idea/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
